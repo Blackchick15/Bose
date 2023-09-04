@@ -6,14 +6,6 @@
   margin: 0 auto;
 }
 
-.ul {
-  margin-top: 0;
-}
-
-.section {
-  margin-top: 0;
-}
-
 .list {
   list-style: none;
   margin: 0;
@@ -110,10 +102,10 @@
   mix-blend-mode: screen;
 }
 .premium .premium__div {
-  padding-left: 150px;
+  padding-left: 470px;
 }
 .premium .premium__title {
-  width: 464px;
+  width: 600px;
   color: #E7E7E7;
   font-family: Gilroy;
   font-size: 54px;
