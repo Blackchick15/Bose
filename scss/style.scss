@@ -108,11 +108,26 @@
 }
 
 .premium{
+  display: flex;
   width: 100%;
   height: 616px;
   background-color:#191919;
 
+  .premium__img{
+    display: block;
+    width: 590px;
+    height: 616px;
+    background: url(<path-to-image>), lightgray -152.872px 0px / 185.447% 100% no-repeat;
+    mix-blend-mode: screen;
+  }
+
+  .premium__div{
+    // display: flex;
+    padding-left: 150px;
+  }
+
   .premium__title{
+    width: 464px;
     color: #E7E7E7;
     font-family: Gilroy;
     font-size: 54px;
