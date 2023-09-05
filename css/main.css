@@ -106,7 +106,7 @@ body {
 .header {
   width: 100%;
   height: 861px;
-  background-color: #191919;
+  color: #191919;
 }
 .header .header__inner {
   display: flex;
@@ -175,7 +175,7 @@ body {
 .header .header__div-title_button {
   width: 400px;
   height: 68px;
-  color: rgba(255, 255, 255, 0.569);
+  color: #E7E7E7;
   font-family: Gilroy;
   font-size: 20px;
   font-style: normal;
@@ -189,8 +189,8 @@ body {
 .premium {
   display: flex;
   width: 100%;
-  height: 616px;
-  background-color: #191919;
+  height: 786px;
+  color: #191919;
 }
 .premium .premium__img {
   display: block;
@@ -237,4 +237,56 @@ body {
   line-height: 145%;
   margin-bottom: 40px;
   /* 29px */
+}
+
+.functional {
+  width: 100%;
+  height: 412px;
+  color: #191919;
+}
+.functional .functional__title {
+  color: #E7E7E7;
+  font-family: Gilroy;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 64.8px */
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  padding-left: 80px;
+  margin-bottom: 50px;
+}
+.functional .functional__title-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.functional .functional__title-ul {
+  display: flex;
+  width: 981px;
+  height: 138px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 80px;
+  gap: 20px;
+}
+.functional .functional__title-ul_text {
+  color: rgba(255, 255, 255, 0.569);
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+}
+.functional .functional__title-ul_text-span {
+  margin-left: 24px;
+}
+.functional .functional__title-ul_2 {
+  display: flex;
+  width: 981px;
+  height: 138px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 80px;
 }/*# sourceMappingURL=main.css.map */
