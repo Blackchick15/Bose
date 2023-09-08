@@ -87,6 +87,7 @@ legend {
 
 body {
   background-color: #191919;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -192,17 +193,20 @@ body {
   height: 786px;
   color: #191919;
 }
-.premium .premium__img {
+
+.premium__img {
   display: block;
   width: 590px;
   height: 616px;
   margin-left: 50px;
-  background-image: url(/img/premiumimg/img_womens.png);
+  background-image: url(../img/premiumimg/img_womens.png);
 }
-.premium .premium__div {
+
+.premium__div {
   padding-left: 470px;
 }
-.premium .premium__title {
+
+.premium__title {
   width: 600px;
   color: #E7E7E7;
   font-family: Gilroy;
@@ -214,11 +218,13 @@ body {
   text-transform: uppercase;
   margin-bottom: 50px;
 }
-.premium .premium__title-ul {
+
+.premium__title-ul {
   width: 510px;
   height: 198px;
 }
-.premium .premium__title-ul_h3 {
+
+.premium__title-ul_h3 {
   color: #E7E7E7;
   font-family: Gilroy;
   font-size: 28px;
@@ -227,7 +233,8 @@ body {
   line-height: 125%;
   margin-bottom: 20px;
 }
-.premium .premium__title-ul_text {
+
+.premium__title-ul_text {
   width: 510px;
   color: rgba(255, 255, 255, 0.569);
   font-family: Gilroy;
@@ -307,7 +314,7 @@ body {
 .advantages .advantages__title {
   display: flex;
   color: rgba(255, 255, 255, 0.8);
-  font-family: Gilroy;
+  font-family: "Roboto";
   font-size: 54px;
   font-style: normal;
   font-weight: 600;
@@ -333,7 +340,7 @@ body {
 }
 .advantages .advantages__div-ul_title {
   color: rgba(255, 255, 255, 0.8);
-  font-family: Gilroy;
+  font-family: "Roboto";
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
@@ -344,7 +351,7 @@ body {
   width: 510px;
   height: 116px;
   color: rgba(255, 255, 255, 0.569);
-  font-family: Gilroy;
+  font-family: "Roboto";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -375,7 +382,7 @@ body {
 }
 .Bose_AR .Bose_AR__div-title {
   color: rgba(255, 255, 255, 0.8);
-  font-family: Gilroy;
+  font-family: "Roboto";
   font-size: 54px;
   font-style: normal;
   font-weight: 600;
@@ -386,7 +393,7 @@ body {
 }
 .Bose_AR .Bose_AR__div-ul_title {
   color: rgba(255, 255, 255, 0.8);
-  font-family: Gilroy;
+  font-family: "Roboto";
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
@@ -395,7 +402,7 @@ body {
 }
 .Bose_AR .Bose_AR__div-ul_text {
   color: rgba(255, 255, 255, 0.569);
-  font-family: Gilroy;
+  font-family: "Roboto";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -425,7 +432,7 @@ body {
 }
 .Guarantees .Guarantees__div-title {
   color: rgba(255, 255, 255, 0.8);
-  font-family: Gilroy;
+  font-family: "Roboto";
   font-size: 54px;
   font-style: normal;
   font-weight: 600;
@@ -436,7 +443,7 @@ body {
 }
 .Guarantees .Guarantees__div-ul_title {
   color: rgba(255, 255, 255, 0.8);
-  font-family: Gilroy;
+  font-family: "Roboto";
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
@@ -448,7 +455,7 @@ body {
 .Guarantees .Guarantees__div-ul_text {
   color: rgba(255, 255, 255, 0.569);
   width: 400px;
-  font-family: Gilroy;
+  font-family: "Roboto";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
