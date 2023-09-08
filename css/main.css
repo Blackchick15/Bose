@@ -43,6 +43,12 @@ img, svg {
   height: auto;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 address {
   font-style: normal;
 }
@@ -188,6 +194,7 @@ body {
 }
 
 .premium {
+  position: relative;
   display: flex;
   width: 100%;
   height: 786px;
@@ -195,15 +202,14 @@ body {
 }
 
 .premium__img {
-  display: block;
+  position: absolute;
   width: 590px;
   height: 616px;
-  margin-left: 50px;
   background-image: url(../img/premiumimg/img_womens.png);
 }
 
 .premium__div {
-  padding-left: 470px;
+  margin-left: 470px;
 }
 
 .premium__title {
