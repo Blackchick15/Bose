@@ -201,6 +201,12 @@ body {
   color: #191919;
 }
 
+.premium__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .premium__img {
   position: absolute;
   width: 590px;
@@ -209,6 +215,9 @@ body {
 }
 
 .premium__div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   margin-left: 470px;
 }
 

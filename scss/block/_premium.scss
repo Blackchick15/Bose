@@ -7,6 +7,13 @@
     color: $dark;
 }
 
+.premium__box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 .premium__img{
   position: absolute;
   width: 590px;
@@ -19,10 +26,10 @@
     
   
     .premium__div{
-      // display: flex;
-      // flex-wrap: wrap;
-      // flex-direction: column;
-      // justify-content: space-between;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      
       margin-left: 470px;
       
       
