@@ -148,7 +148,7 @@ body {
 .header .header__div-text {
   width: 321px;
   color: rgba(255, 255, 255, 0.569);
-  font-family: Gilroy;
+  font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -170,7 +170,7 @@ body {
 .header .header__div-title_h1 {
   width: 674px;
   color: #E7E7E7;
-  font-family: Gilroy;
+  font-family: "Roboto";
   font-size: 74px;
   font-style: normal;
   font-weight: 600;
@@ -183,7 +183,7 @@ body {
   width: 400px;
   height: 68px;
   color: #E7E7E7;
-  font-family: Gilroy;
+  font-family: "Roboto";
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -224,7 +224,7 @@ body {
 .premium__title {
   width: 600px;
   color: #E7E7E7;
-  font-family: Gilroy;
+  font-family: "Roboto";
   font-size: 54px;
   font-style: normal;
   font-weight: 600;
@@ -268,7 +268,7 @@ body {
 }
 .functional .functional__title {
   color: #E7E7E7;
-  font-family: Gilroy;
+  font-family: "Roboto";
   font-size: 54px;
   font-style: normal;
   font-weight: 600;
@@ -294,7 +294,7 @@ body {
 }
 .functional .functional__title-ul_text {
   color: rgba(255, 255, 255, 0.569);
-  font-family: Gilroy;
+  font-family: "Roboto";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -479,4 +479,84 @@ body {
 }
 .Guarantees .Guarantees__icon-div {
   padding-left: 40px;
+}
+
+.history_brand {
+  width: 100%;
+  height: 1283px;
+  color: #191919;
+}
+
+.history_brand__div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history_brand__div-ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 400px;
+}
+
+.history_brand__div-ul_title {
+  color: #E7E7E7;
+  font-family: "Roboto";
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 64.8px */
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.history_brand__div-ul_text {
+  color: rgba(255, 255, 255, 0.569);
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  margin-bottom: 74px; /* 29px */
+}
+
+.history_brand__div-ul_text_2 {
+  color: rgba(255, 255, 255, 0.569);
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  margin-bottom: 74px; /* 29px */
+}
+
+.history_brand__div-ul_text_min {
+  color: rgba(255, 255, 255, 0.363);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70%;
+}
+
+.history_brand__div-img {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 700px;
+}
+
+.history_brand__div-ul_title_2 {
+  width: 382px;
+  color: #E7E7E7;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 35px */
+}
+
+.history_brand__div-ul_icon {
+  margin-bottom: 50px;
 }/*# sourceMappingURL=main.css.map */
