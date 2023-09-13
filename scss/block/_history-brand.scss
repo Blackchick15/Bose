@@ -48,6 +48,17 @@
     margin-bottom: 74px; /* 29px */
 }
 
+.history_brand__div-ul_text_3{
+    color: $text;
+    font-family:'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%;
+    margin-bottom: 125px;
+
+}
+
 .history_brand__div-ul_text_min{
     color: rgba(255, 255, 255, 0.363);
     font-family: 'Roboto';
@@ -71,9 +82,13 @@
     font-size: 28px;
     font-style: normal;
     font-weight: 600;
-    line-height: 125%; /* 35px */
+    line-height: 125%;
+    margin-bottom: 32px; /* 35px */
 }
 
 .history_brand__div-ul_icon{
+    margin-bottom: 50px;
+}
+.history_brand__div-ul_img{
     margin-bottom: 50px;
 }

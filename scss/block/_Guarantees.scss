@@ -12,6 +12,7 @@
     }
 
         .Guarantees__div-img{
+            display: flex;
             flex-shrink: 0;
             background-repeat: no-repeat;
             background-size: contain;
@@ -66,6 +67,7 @@
             }
 
             .Guarantees__icon-div{
+                padding-top: 492px;
                 padding-left: 40px;
             }
 }

@@ -80,12 +80,23 @@
     
   }
 
+  .header__div-inner{
+    display: flex;
+  }
+
+  .header__div-img{
+    width: 700px;
+    height: 598px;
+    background-image: url(/img/headerimg/img.png);
+    // margin-left: 0px;
+  }
+
   .header__div-title{
     padding-left: 110px;
   }
 
   .header__div-title_h1{
-    width: 674px;
+    width: 580px;
    
     color: #E7E7E7;
     font-family: 'Roboto';
