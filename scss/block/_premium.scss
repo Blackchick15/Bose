@@ -1,4 +1,3 @@
-
 .premium{
   position: relative;
     display: flex;
@@ -15,10 +14,13 @@
 
 
 .premium__img{
-  position: absolute;
+flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* position: absolute; */
   width: 590px;
   height: 616px;
-  
+
   // background: url(<path-to-image>), lightgray -152.872px 0px / 185.447% 100% no-repeat;
   // mix-blend-mode: screen;
   background-image: url(../img/premiumimg/img_womens.png);
@@ -30,7 +32,6 @@
       flex-wrap: wrap;
       flex-direction: column;
       
-      margin-left: 470px;
       
       
     }

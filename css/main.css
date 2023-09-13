@@ -190,7 +190,7 @@ body {
   line-height: normal;
   letter-spacing: 0.4px;
   text-transform: uppercase;
-  background: #DF3D3A;
+  background-color: #DF3D3A;
 }
 
 .premium {
@@ -208,7 +208,10 @@ body {
 }
 
 .premium__img {
-  position: absolute;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* position: absolute; */
   width: 590px;
   height: 616px;
   background-image: url(../img/premiumimg/img_womens.png);
@@ -218,7 +221,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-left: 470px;
 }
 
 .premium__title {
