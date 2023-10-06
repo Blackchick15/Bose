@@ -9,18 +9,18 @@
 .premium__box{
   @media screen and (min-width: 320px) {
    display: flex;
-   flex-wrap: wrap;
+  //  flex-wrap: wrap;
    flex-direction: row-reverse;
    justify-content: space-around;
    align-items: center;
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 767.98px) {
-  // display: flex;
-  // flex-direction: row-reverse;
-  // justify-content: space-between;
-  // align-items: center;
+@media screen  and (min-width: 768px) {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
 
 }
 
@@ -44,14 +44,14 @@
 
   // background: url(<path-to-image>), lightgray -152.872px 0px / 185.447% 100% no-repeat;
   // mix-blend-mode: screen;
-  background-image: url(../img/premiumimg/img_womens.png);
+  // background-image: url(../img/premiumimg/img_womens.png);
   @media screen and (min-width: 320px) {
    
     
 }
 
 @media screen and (min-width: 768px) {
-  background-image: url(../img/premiumimg/img_womens-x1.png);
+  background-image: url(../img/premiumimg/img_womens2x.png);
 }
 
 @media screen and (min-width: 1360px) {
@@ -77,13 +77,13 @@
       
       font-style: normal;
       font-weight: 600;
-      line-height: 120%; /* 64.8px */
+      line-height: 120%; 
       letter-spacing: 1.08px;
       text-transform: uppercase;
      
 
       @media screen and (min-width: 320px) {
-        width: 204px;
+        width: 200px;
         font-size: 24px;
         margin-bottom: 32px;
     }
@@ -107,11 +107,11 @@
   .premium__title-ul_h3{
     color: #E7E7E7;
     font-family: 'Roboto' ;
-    font-size: 28px;
+    
     font-style: normal;
     font-weight: 600;
     line-height: 125%;
-    margin-bottom: 20px;
+    
 
     @media screen and (min-width: 320px) {
       width: 245px;
@@ -128,27 +128,28 @@
   @media screen and (min-width: 1360px) {
     width: 295px;
     font-size: 20px;
-    margin-bottom: 16px;
+    margin-bottom:20px;
    }
   }
   .premium__title-ul_text{
-    width: 510px;
+    
     color: rgba(255, 255, 255, 0.569);
     font-family: 'Roboto';
-    font-size: 20px;
+    
     font-style: normal;
     font-weight: 400;
     line-height: 145%;
-    margin-bottom: 40px;
+    
      /* 29px */
 
      @media screen and (min-width: 320px) {
+      width: 280px;
       font-size: 16px;
       margin-bottom: 24px;
   }
   
   @media screen and (min-width: 768px) {
-   
+    width: 294px;
     font-size: 16px;
     margin-bottom: 40px;
   }
