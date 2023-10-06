@@ -6,20 +6,50 @@
     .functional__title{
         color: #E7E7E7;
         font-family: 'Roboto';
-        font-size: 54px;
+        
         font-style: normal;
         font-weight: 600;
         line-height: 120%; /* 64.8px */
         letter-spacing: 1.08px;
         text-transform: uppercase;
-        padding-left: 80px;
-        margin-bottom: 50px;
+        
+        
+
+        @media screen and (min-width: 320px) {
+             width: 260px;
+            font-size: 24px;
+            margin-bottom: 32px;
+            padding-left: 20px;
+        }
+        
+        @media screen and (min-width: 768px) {
+         
+           font-size: 30px;
+           margin-bottom: 32px;
+        }
+        
+        @media screen and (min-width: 1360px) {
+          width: 470px;
+          font-size: 54px;
+          margin-bottom: 50px;
+          padding-left: 80px;
+         }
     }
 
     .functional__title-div{
+        @media screen and (min-width: 320px) {
+         padding-left: 20px;
+       }
+       
+       @media screen and (min-width: 768px) {
+        
+       }
+       
+       @media screen and (min-width: 1360px) {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        }
     }
 
     .functional__title-ul{
@@ -28,17 +58,43 @@
         height: 138px;
         flex-wrap: wrap;
         flex-direction: column;
-        padding-left: 80px;
+        
         gap: 20px; 
+
+        
+    @media screen and (min-width: 320px) {
+      
+    }
+  
+    @media screen  and (min-width: 768px) {
+     
+    
+    }
+  
+    @media screen and (min-width: 1360px) {
+        padding-left: 80px;
+     }
     }
 
     .functional__title-ul_text{
         color: $text;
         font-family: 'Roboto';
-        font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: 145%;
+
+        @media screen and (min-width: 320px) {
+            font-size: 14px;
+        }
+      
+        @media screen  and (min-width: 768px) {
+         
+            font-size: 16px;
+        }
+      
+        @media screen and (min-width: 1360px) {
+            font-size: 20px;
+         }
     }
 
     .functional__title-ul_text-span{
@@ -52,6 +108,19 @@
         flex-wrap: wrap;
         flex-direction: column;
         gap: 20px;
-        padding-left: 80px;
+
+
+        @media screen and (min-width: 320px) {
+      
+        }
+      
+        @media screen  and (min-width: 768px) {
+         
+        
+        }
+      
+        @media screen and (min-width: 1360px) {
+            padding-left: 80px;
+         }
     }
 }

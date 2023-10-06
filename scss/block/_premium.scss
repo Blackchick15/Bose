@@ -2,16 +2,28 @@
   position: relative;
     display: flex;
     width: 100%;
-    height: 786px;
+   
     color: $dark;
+
+    @media screen and (min-width: 320px) {
+      height: 850px;
+  }
+
+  @media screen  and (min-width: 768px) {
+    height: 786px;
+  
+  }
+
+  @media screen and (min-width: 1360px) {
+    height: 786px;
+   }
 }
 
 .premium__box{
   @media screen and (min-width: 320px) {
-   display: flex;
-  //  flex-wrap: wrap;
-   flex-direction: row-reverse;
-   justify-content: space-around;
+  //  flex-direction: row-reverse;
+  //  justify-content: space-around;
+  padding: 52px 20px;
    align-items: center;
 }
 
@@ -35,26 +47,29 @@
 
 
 .premium__img{
-  flex-shrink: 0;
   background-repeat: no-repeat;
   background-size: contain;
   /* position: absolute; */
-  width: 590px;
-  height: 616px;
 
   // background: url(<path-to-image>), lightgray -152.872px 0px / 185.447% 100% no-repeat;
   // mix-blend-mode: screen;
   // background-image: url(../img/premiumimg/img_womens.png);
   @media screen and (min-width: 320px) {
-   
+    width: 280px;
+    height: 293px;
+    background-image: url(../img/premiumimg/img_womens.png);
     
 }
 
 @media screen and (min-width: 768px) {
+  width: 354px;
+  height: 540px;
   background-image: url(../img/premiumimg/img_womens2x.png);
 }
 
 @media screen and (min-width: 1360px) {
+  width: 590px;
+  height: 616px;
   background-image: url(../img/premiumimg/img_womens.png);
     
  }
@@ -65,7 +80,6 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
-      
       
       
     }
@@ -83,7 +97,7 @@
      
 
       @media screen and (min-width: 320px) {
-        width: 200px;
+        width: 216px;
         font-size: 24px;
         margin-bottom: 32px;
     }
