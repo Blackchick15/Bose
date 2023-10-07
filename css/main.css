@@ -506,47 +506,138 @@ body {
   display: flex;
   color: rgba(255, 255, 255, 0.8);
   font-family: "Roboto";
-  font-size: 54px;
   font-style: normal;
   font-weight: 600;
   line-height: 120%; /* 64.8px */
   letter-spacing: 1.08px;
   text-transform: uppercase;
   justify-content: end;
-  margin-bottom: 50px;
 }
-.advantages .advantages__img {
+@media screen and (min-width: 320px) {
+  .advantages .advantages__title {
+    font-size: 24px;
+    margin-bottom: 32px;
+    padding-left: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .advantages .advantages__title {
+    font-size: 30px;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .advantages .advantages__title {
+    display: flex;
+    font-size: 54px;
+    margin-bottom: 50px;
+    justify-content: end;
+  }
+}
+
+.advantages__img {
   width: 1440px;
   height: 524px;
-  background-image: url(/img/advantagesbg/image\ 234.jpg);
 }
-.advantages .advantages__div-text {
-  display: flex;
-  gap: 40px;
-  padding-left: 100px;
+@media screen and (min-width: 320px) {
+  .advantages__img {
+    width: 280px;
+    height: 293px;
+    background-image: url(/img/advantagesbg/image\ 2343x.png);
+    margin-left: 20px;
+  }
 }
-.advantages .advantages__div-ul {
+@media screen and (min-width: 768px) {
+  .advantages__img {
+    width: 768px;
+    height: 293px;
+    background-image: url(/img/advantagesbg/image\ 2342x.png);
+  }
+}
+@media screen and (min-width: 1360px) {
+  .advantages__img {
+    width: 1440px;
+    height: 524px;
+    background-image: url(/img/advantagesbg/image\ 234.jpg);
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .advantages__div-text {
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .advantages__div-text {
+    display: flex;
+    padding-left: 60px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .advantages__div-text {
+    display: flex;
+    gap: 40px;
+    padding-left: 100px;
+  }
+}
+
+.advantages__div-ul {
   width: 510px;
-  height: 169px;
 }
-.advantages .advantages__div-ul_title {
+
+.advantages__div-ul_title {
   color: rgba(255, 255, 255, 0.8);
   font-family: "Roboto";
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
   line-height: 125%;
-  margin-bottom: 20px; /* 35px */
 }
-.advantages .advantages__div-ul_text {
-  width: 510px;
-  height: 116px;
+@media screen and (min-width: 320px) {
+  .advantages__div-ul_title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .advantages__div-ul_title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .advantages__div-ul_title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+}
+
+.advantages__div-ul_text {
   color: rgba(255, 255, 255, 0.569);
   font-family: "Roboto";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 145%; /* 29px */
+  line-height: 145%;
+}
+@media screen and (min-width: 320px) {
+  .advantages__div-ul_text {
+    width: 280px;
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .advantages__div-ul_text {
+    width: 294px;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .advantages__div-ul_text {
+    width: 510px;
+    font-size: 20px;
+  }
 }
 
 .Bose_AR {
