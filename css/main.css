@@ -554,6 +554,7 @@ body {
 .advantages__img {
   width: 1440px;
   height: 524px;
+  background-size: contain;
 }
 @media screen and (min-width: 320px) {
   .advantages__img {
@@ -785,9 +786,20 @@ body {
   width: 100%;
   height: 735px;
 }
-.Guarantees .Guarantees__div {
-  display: flex;
-  height: 565px;
+@media screen and (min-width: 768px) {
+  .Guarantees .Guarantees__div {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .Guarantees .Guarantees__div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
 }
 .Guarantees .Guarantees__div-img {
   display: flex;
@@ -802,18 +814,46 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  padding-left: 150px;
+}
+@media screen and (min-width: 320px) {
+  .Guarantees .Guarantees__div-ul {
+    width: 280px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .Guarantees .Guarantees__div-ul {
+    width: 289px;
+    padding-left: 60px;
+  }
 }
 .Guarantees .Guarantees__div-title {
   color: rgba(255, 255, 255, 0.8);
   font-family: "Roboto";
-  font-size: 54px;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
   letter-spacing: 1.08px;
   text-transform: uppercase;
-  margin-bottom: 50px;
+}
+@media screen and (min-width: 320px) {
+  .Guarantees .Guarantees__div-title {
+    width: 280px;
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .Guarantees .Guarantees__div-title {
+    width: 289px;
+    font-size: 30px;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .Guarantees .Guarantees__div-title {
+    font-size: 54px;
+    margin-bottom: 50px;
+  }
 }
 .Guarantees .Guarantees__div-ul_title {
   color: rgba(255, 255, 255, 0.8);
@@ -821,7 +861,27 @@ body {
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
-  line-height: 125%; /* 35px */
+  line-height: 125%;
+}
+@media screen and (min-width: 320px) {
+  .Guarantees .Guarantees__div-ul_title {
+    width: 280px;
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .Guarantees .Guarantees__div-ul_title {
+    width: 289px;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .Guarantees .Guarantees__div-ul_title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
 }
 .Guarantees .Guarantees__div-ul_icon {
   margin-bottom: 24px;
@@ -830,11 +890,28 @@ body {
   color: rgba(255, 255, 255, 0.569);
   width: 400px;
   font-family: "Roboto";
-  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 145%;
-  margin-bottom: 69px; /* 29px */
+}
+@media screen and (min-width: 320px) {
+  .Guarantees .Guarantees__div-ul_text {
+    width: 280px;
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .Guarantees .Guarantees__div-ul_text {
+    width: 289px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .Guarantees .Guarantees__div-ul_text {
+    font-size: 20px;
+  }
 }
 .Guarantees .Guarantees__icon-div {
   padding-top: 492px;
