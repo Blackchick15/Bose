@@ -4,16 +4,47 @@
     height: 756px;
 
     .Bose_AR__div{
+
+
+        @media screen and (min-width: 320px) {
+         padding-left: 20px;
+       }
+       
+       @media screen and (min-width: 768px) {
+        display: flex;
+        height: 586px;
+        padding-left: 60px;
+        justify-content: space-between;
+        
+       }
+       
+       @media screen and (min-width: 1360px) {
         display: flex;
         height: 586px;
         padding-left: 100px;
         justify-content: space-between;
+        }
+   }
     }
 
     .Bose_AR__div-img{
       width: 700px;
       height: 586px;
-      background-image: url(/img/Bose_ARbg/img.jpg);
+     
+
+      
+      @media screen and (min-width: 320px) {
+      
+      }
+      
+      @media screen and (min-width: 768px) {
+ 
+       
+      }
+      
+      @media screen and (min-width: 1360px) {
+        background-image: url(/img/Bose_ARbg/img.jpg);
+       }
     }
     
     .Bose_AR__div-ul{
@@ -33,6 +64,21 @@
         letter-spacing: 1.08px;
         text-transform: uppercase;
         margin-bottom: 50px;
+
+        @media screen and (min-width: 320px) {
+            font-size: 24px;
+            margin-bottom: 32px;
+          }
+          
+          @media screen and (min-width: 768px) {
+           font-size: 30px;
+           margin-bottom: 32px;
+          }
+          
+          @media screen and (min-width: 1360px) {
+           font-size: 54px;
+           margin-bottom: 50px;
+           }
     }
 
     
@@ -40,19 +86,43 @@
     .Bose_AR__div-ul_title{
         color: $white;
         font-family: 'Roboto';
-        font-size: 28px;
         font-style: normal;
         font-weight: 600;
         line-height: 125%;
-        margin-bottom: 20px; /* 35px */
+
+        @media screen and (min-width: 320px) {
+            font-size: 20px;
+            margin-bottom: 16px;
+          }
+          
+          @media screen and (min-width: 768px) {
+            font-size: 20px;
+           margin-bottom: 16px;
+          }
+          
+          @media screen and (min-width: 1360px) {
+            font-size: 28px;
+            margin-bottom: 20px;
+           }
     }
 
     .Bose_AR__div-ul_text{
         color: $text;
         font-family: 'Roboto';
-        font-size: 20px;
+        
         font-style: normal;
         font-weight: 400;
-        line-height: 145%; /* 29px */
+        line-height: 145%; 
+
+        @media screen and (min-width: 320px) {
+            font-size: 14px;
+          }
+          
+          @media screen and (min-width: 768px) {
+            font-size: 16px;
+          }
+          
+          @media screen and (min-width: 1360px) {
+            font-size: 16px;
+           }
     }
-}
