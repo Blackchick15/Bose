@@ -1,0 +1,13 @@
+.go-top{
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(50%);
+    cursor: pointer;
+
+    display: none;
+}
+
+.go-top--show{
+    display: block;
+}
