@@ -1003,6 +1003,7 @@ body {
 @media screen and (min-width: 1360px) {
   .history_brand {
     width: 1360px;
+    margin: 0 auto;
   }
 }
 
@@ -1591,37 +1592,29 @@ body {
   }
 }
 
-.swiper-button__next,
-.swiper__bose-rtl .swiper-button__prev {
-  right: 0px !important;
-  left: auto;
-}
-
-.swiper-button__prev,
-.swiper__bose-rtl .swiper-button__next {
-  left: 0px !important;
-  right: auto;
-}
-
 .bose__700 {
   width: 100%;
   height: 100%;
   background-color: #191919;
 }
 
-.swiper__bose {
-  width: 1380px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
+@media screen and (min-width: 320px) {
+  .swiper__bose {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .swiper__bose {
+    width: 1380px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
 }
 
 .swiper-slide__bose {
-  text-align: center;
   font-size: 18px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .swiper-slide__bose img {
@@ -1642,10 +1635,24 @@ body {
   background: rgba(255, 255, 255, 0.8);
   margin-bottom: 26px;
 }
+@media screen and (min-width: 320px) {
+  .bose__700-ul_line {
+    width: 280px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .bose__700-ul_line {
+    width: 648px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .bose__700-ul_line {
+    width: 400px;
+  }
+}
 
 .bose__700-ul_text {
   display: flex;
-  width: 400px;
   justify-content: space-between;
   color: rgba(255, 255, 255, 0.8);
   font-family: "Roboto";
@@ -1653,19 +1660,51 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 125%;
-  margin-bottom: 25px; /* 20px */
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 320px) {
+  .bose__700-ul_text {
+    width: 280px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .bose__700-ul_text {
+    width: 648px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .bose__700-ul_text {
+    width: 400px;
+  }
 }
 
 .bose__700-ul_title {
   color: #E7E7E7;
   font-family: "Roboto";
-  font-size: 54px;
   font-style: normal;
   font-weight: 600;
   line-height: 120%; /* 64.8px */
   letter-spacing: 1.08px;
   text-transform: uppercase;
-  margin-bottom: 50px;
+}
+@media screen and (min-width: 320px) {
+  .bose__700-ul_title {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .bose__700-ul_title {
+    font-size: 30px;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .bose__700-ul_title {
+    font-size: 54px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
 }
 
 .bose__700-ul_price {
@@ -1679,15 +1718,27 @@ body {
   text-transform: uppercase;
   margin-bottom: 32px;
 }
+@media screen and (min-width: 320px) {
+  .bose__700-ul_price {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .bose__700-ul_price {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .bose__700-ul_price {
+    font-size: 54px;
+  }
+}
 
 .bose__700-ul_button {
   display: flex;
-  width: 400px;
-  height: 68px;
   background-color: #DF3D3A;
   color: rgba(255, 255, 255, 0.9);
   font-family: "Roboto";
-  font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -1696,11 +1747,86 @@ body {
   align-items: center;
   justify-content: center;
 }
+@media screen and (min-width: 320px) {
+  .bose__700-ul_button {
+    font-size: 16px;
+    width: 280px;
+    height: 58px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .bose__700-ul_button {
+    font-size: 20px;
+    width: 294px;
+    height: 58px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .bose__700-ul_button {
+    font-size: 20px;
+    width: 400px;
+    height: 68px;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .bose__700-box {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .bose__700-box_img {
+    width: 280px;
+    height: 265px;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .bose__700-box_img {
+    width: 648px;
+    height: 446px;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .bose__700-box_img {
+    width: 700px;
+    height: 664px;
+  }
+}
 
 .background {
-  width: 100%;
-  height: 524px;
-  margin-top: 170px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1360px) {
+  .background {
+    height: 524px;
+    margin-top: 170px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .background__img {
+    width: 280px;
+    height: 235px;
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .background__img {
+    width: 648px;
+    height: 360px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .background__img {
+    width: 1440px;
+    height: 524px;
+  }
 }
 
 .feedback {

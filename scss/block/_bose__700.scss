@@ -1,15 +1,15 @@
 
-.swiper-button__next,
-.swiper__bose-rtl .swiper-button__prev {
-    right: 0px !important;
-    left: auto;
-}
+// .swiper-button__next,
+// .swiper__bose-rtl .swiper-button__prev {
+//     right: 0px !important;
+//     left: auto;
+// }
 
-.swiper-button__prev,
-.swiper__bose-rtl .swiper-button__next {
-    left: 0px !important;
-    right: auto;
-}
+// .swiper-button__prev,
+// .swiper__bose-rtl .swiper-button__next {
+//     left: 0px !important;
+//     right: auto;
+// }
 
 
 .bose__700{
@@ -20,22 +20,33 @@
 }
 
 .swiper__bose{
-  width: 1380px;
-  padding-left: 15px;
-  padding-right: 15px   ;
-  margin: 0 auto;
+
+  @media screen and (min-width: 320px) {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+  @media screen  and (min-width: 768px) {
+     
+  }
+  
+  @media screen and (min-width: 1360px) {
+    width: 1380px;
+    padding-left: 15px;
+    padding-right: 15px   ;
+    margin: 0 auto;
+   }
 }
 
-.swiper-wrapper__bose{
 
-}
 
 .swiper-slide__bose{
-    text-align: center;
+    // text-align: center;
     font-size: 18px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
 }
 
 .swiper-slide__bose img{
@@ -55,11 +66,23 @@
     gap: 26px;
     background: rgba(255, 255, 255, 0.80);
     margin-bottom: 26px;
+
+    @media screen and (min-width: 320px) {
+        width: 280px;
+    }
+    
+    
+    @media screen  and (min-width: 768px) {
+        width: 648px;
+    }
+    
+    @media screen and (min-width: 1360px) {
+        width: 400px;
+     }
 }
 
 .bose__700-ul_text{
     display: flex;
-    width: 400px;
     justify-content: space-between;
     color: rgba(255, 255, 255, 0.80);
     font-family: 'Roboto';
@@ -67,19 +90,52 @@
     font-style: normal;
     font-weight: 400;
     line-height: 125%;
-    margin-bottom: 25px; /* 20px */
+    margin-bottom: 25px; 
+
+    
+  @media screen and (min-width: 320px) {
+    width: 280px;
+  }
+  
+  
+  @media screen  and (min-width: 768px) {
+    width: 648px;
+  }
+  
+  @media screen and (min-width: 1360px) {
+    width: 400px;
+   }
 }
 
 .bose__700-ul_title{
     color: #E7E7E7;
     font-family: 'Roboto';
-    font-size: 54px;
     font-style: normal;
     font-weight: 600;
     line-height: 120%; /* 64.8px */
     letter-spacing: 1.08px;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    
+    
+
+    
+    @media screen and (min-width: 320px) {
+        font-size: 24px;
+        margin-bottom: 32px;
+    }
+    
+    
+    @media screen  and (min-width: 768px) {
+        font-size: 30px;
+        margin-bottom: 32px;
+    }
+    
+    @media screen and (min-width: 1360px) {
+       
+        font-size: 54px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+     }
 }
 
 .bose__700-ul_price{
@@ -92,16 +148,29 @@
     letter-spacing: 1.08px;
     text-transform: uppercase;
     margin-bottom: 32px;
+
+    @media screen and (min-width: 320px) {
+        font-size: 24px;
+    }
+    
+    
+    @media screen  and (min-width: 768px) {
+        font-size: 30px;
+    
+    }
+    
+    @media screen and (min-width: 1360px) {
+        font-size: 54px;
+     }
 }
 
 .bose__700-ul_button{
     display: flex;
-    width: 400px;
-    height: 68px;
+  
     background-color: #DF3D3A;
     color: rgba(255, 255, 255, 0.90);
     font-family: 'Roboto';
-    font-size: 20px;
+    
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -109,5 +178,64 @@
     text-transform: uppercase;
     align-items: center;
     justify-content: center;
+
+    @media screen and (min-width: 320px) {
+        font-size: 16px;
+        width: 280px;
+        height: 58px;
+    }
+    
+    
+    @media screen  and (min-width: 768px) {
+        font-size: 20px;
+        width: 294px;
+        height: 58px;
+    }
+    
+    @media screen and (min-width: 1360px) {
+        font-size: 20px;
+        width: 400px;
+        height: 68px;
+     }
 }
 
+
+.bose__700-box{
+  
+
+    @media screen and (min-width: 320px) {
+
+      }
+      
+      
+      @media screen  and (min-width: 768px) {
+ 
+      
+      }
+      
+      @media screen and (min-width: 1360px) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+       }
+}
+
+.bose__700-box_img{
+    @media screen and (min-width: 320px) {
+        width: 280px;
+        height: 265px;
+        margin-bottom: 32px;
+    }
+    
+    
+    @media screen  and (min-width: 768px) {
+        width: 648px;
+        height: 446px;
+        margin-bottom: 32px;
+    }
+    
+    @media screen and (min-width: 1360px) {
+        width: 700px;
+        height: 664px;
+     }
+}
