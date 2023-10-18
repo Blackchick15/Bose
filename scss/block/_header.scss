@@ -12,6 +12,18 @@
     width: 100%;
     height: 861px;
     color: $dark;
+
+    @media screen and (min-width: 320px) {
+     margin-left: 30px;
+   }
+   
+   @media screen and (min-width: 768px) {
+    
+     }
+   
+   @media screen and (min-width: 1360px) {
+    
+    }
     
 
   .header__inner{
@@ -50,89 +62,172 @@
   }
 
   .header__div-text{
-    width: 321px;
+    
     color: rgba(255, 255, 255, 0.569);
     font-family: 'Roboto';
-    font-size: 16px;
+    
     font-style: normal;
     font-weight: 400;
     line-height: 125%;
-    padding-bottom: 36px; /* 20px */
+    
+
+    @media screen and (min-width: 320px) {
+      width: 280px;
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+    
+    @media screen and (min-width: 768px) {
+      width: 321px;
+      font-size: 16px;
+      margin-bottom: 16px;
+      }
+    
+    @media screen and (min-width: 1360px) {
+      width: 321px;
+      font-size: 16px;
+      margin-bottom: 36px;
   }
+}
 
   .header__div-text_p{
     width: 110px;
     color: rgba(255, 255, 255, 0.569);
-    font-family: Gilroy;
+    font-family:'Roboto' ;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 125%; 
+
+    @media screen and (min-width: 320px) {
+      font-size: 14px;
+    }
+    
+    @media screen and (min-width: 768px) {
+      font-size: 16px;
+      }
+    
+    @media screen and (min-width: 1360px) {
+      font-size: 16px;
+  }
     
   }
 
   .header__div-inner{
-    display: flex;
+    
+     
+
+    @media screen and (min-width: 320px) {
+      
+    }
+    
+    @media screen and (min-width: 768px) {
+      display: flex;
+      }
+    
+    @media screen and (min-width: 1360px) {
+      display: flex;
+  }
+    
   }
 
   .header__div-img{
-    width: 700px;
-    height: 598px;
-    background-image: url(/img/headerimg/img.png);
+ 
     // margin-left: 0px;
+
+    @media screen and (min-width: 320px) {
+      
+    }
+    
+    @media screen and (min-width: 768px) {
+      display: flex;
+      }
+    
+    @media screen and (min-width: 1360px) {
+      width: 700px;
+      height: 598px;
+      background-image: url(/img/headerimg/img.png);
+  }
   }
 
   .header__div-title{
-    padding-left: 110px;
+   
+
+    @media screen and (min-width: 320px) {
+     
+    }
+    
+    @media screen and (min-width: 768px) {
+      margin-left: 60px;
+      }
+    
+    @media screen and (min-width: 1360px) {
+      margin-left: 110px;
+  }
   }
 
   .header__div-title_h1{
-    width: 580px;
+    
    
     color: #E7E7E7;
     font-family: 'Roboto';
-    font-size: 74px;
+    
     font-style: normal;
     font-weight: 600;
-    line-height: 100%; /* 74px */
+    line-height: 100%; 
     letter-spacing: 1.48px;
     text-transform: uppercase;
-    padding-bottom: 86px;
+    
+
+    @media screen and (min-width: 320px) {
+      width: 234px;
+      font-size: 34px;
+      margin-bottom: 32px;
+    }
+    
+    @media screen and (min-width: 768px) {
+      width: 289px;
+      font-size: 42px;
+      margin-bottom: 40px;
+      }
+    
+    @media screen and (min-width: 1360px) {
+      width: 580px;
+      font-size: 74px;
+      margin-bottom: 86px;
+  }
   }
 
   .header__div-title_button{
-    width: 400px;
-    height: 68px;
     color: #E7E7E7;
     font-family: 'Roboto';
-    font-size: 20px;
+    
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.4px;
     text-transform: uppercase;
     background-color:$accent;
+
+    
+    @media screen and (min-width: 320px) {
+      font-size: 16px;
+      width: 280px;
+      height: 58px;
+      
+    }
+    
+    @media screen and (min-width: 768px) {
+      font-size: 16px;
+      width: 294px;
+      height: 58px;
+  
+      }
+    
+    @media screen and (min-width: 1360px) {
+      font-size: 20px;
+      width: 400px;
+      height: 68px;
+  }
   }
 }
-
-// @media screen and (min-width: 320px) {
-//   .header{
-//     max-width: 480px;
-//     width: 100%;
-//     height: 595px;
-//     color: $dark;
-//     margin: 0 auto;
-//   }
-
-//   .header__div-title_h1{
-//     color: #E7E7E7;
-//     font-family: 'Roboto';
-//     font-size: 34px;
-//     font-style: normal;
-//     font-weight: 600;
-//     line-height: 100%; 
-//     letter-spacing: 0.68px;
-//     text-transform: uppercase;
-//   }
-
-// }
