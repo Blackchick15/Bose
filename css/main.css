@@ -137,6 +137,21 @@ body {
     margin-left: 30px;
   }
 }
+@media screen and (min-width: 768px) {
+  .header .mune {
+    display: block;
+    z-index: 5;
+    position: relative;
+    width: 30px;
+    height: 18px;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .header .mune {
+    display: none;
+  }
+}
 .header .header__inner {
   display: flex;
   justify-content: space-between;
@@ -2172,40 +2187,45 @@ body {
 }
 
 .footer {
-  margin: 0 auto;
+  width: 100%;
+  margin-top: 175px;
+  margin-bottom: 75px;
 }
 @media screen and (min-width: 320px) {
   .footer {
-    width: 320px;
     margin-bottom: 50px;
   }
 }
 @media screen and (min-width: 768px) {
   .footer {
-    width: 768px;
-    height: 102px;
     margin-bottom: 50px;
   }
 }
 @media screen and (min-width: 1360px) {
   .footer {
-    width: 1360px;
     margin-top: 175px;
     margin-bottom: 75px;
   }
 }
 
+.footer__div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 @media screen and (min-width: 320px) {
   .footer__div {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 20px;
   }
 }
 @media screen and (min-width: 768px) {
   .footer__div {
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 24px;
   }
 }
 @media screen and (min-width: 1360px) {
