@@ -123,6 +123,20 @@
     margin-bottom: 94px;
   }
 
+  .header__hav-ul{
+    @media screen and (min-width: 320px) {
+       display: none;
+    }
+    
+    @media screen and (min-width: 768px) {
+       display: none;
+      }
+    
+    @media screen and (min-width: 1360px) {
+       display: block;
+  } 
+  }
+
   .header__div-text{
     
     color: rgba(255, 255, 255, 0.569);
@@ -295,17 +309,22 @@
 }
 
 .button-mobile {
-  position: relative;
+   position: relative;
   
-  z-index: 120;
+   z-index: 120;
    background-color: transparent;
    border: none;
    display: -webkit-box;
  
 
     @media screen and (min-width: 768px) {
-      display: none;
-               }
+          
+
+       }
+
+     @media screen and (min-width: 1360px) {
+         display: none;
+       }
 
    }
 // wadwad
@@ -365,7 +384,7 @@
    width: 100%;
    height: 100vh;
    flex-direction: column;
-   background: #FFFFFF;
+   background: #000000;
    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
    transition: right 0.5s;
    
