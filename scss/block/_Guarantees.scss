@@ -3,20 +3,18 @@
     display: flex;
     margin: 0 auto;
     height: 735px;
+    width: 100%;
 
     @media screen and (min-width: 320px) {
-      width: 320px;
       height: 835px;
       margin-left: 20px;
   }
   
   @media screen and (min-width: 768px) {
-      width: 768px;
       height: 735px;
     }
   
   @media screen and (min-width: 1360px) {
-      width: 1360px;
       height: 735px;
    }
 
