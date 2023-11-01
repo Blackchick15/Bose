@@ -1,7 +1,4 @@
 .header {
-
-
-  max-width: 1360px;
   width: 100%;
   margin: 0 auto;
 
@@ -11,16 +8,7 @@
     padding-top: 24px;
     padding-bottom: 32px;
   }
-
-
-  // @media screen and (min-width: 480px) {}
-
-  @media screen and (min-width: 768px) {}
-
-  @media screen and (min-width: 480px) {
   
-  }
-
   @media screen and (min-width: 768px) {
     
   }
@@ -35,6 +23,7 @@
 
 .header>.conteiner {
   display: flex;
+  margin: 0 auto;
     @media screen and (min-width: 320px) {
       
     
@@ -46,6 +35,8 @@
     
       @media screen and (min-width: 1360px) {
       justify-content: space-between;
+      width: 1360px;
+     
       }
 
     }
