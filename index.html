@@ -277,9 +277,8 @@
 
         <section class="Bose_AR">
             <div class="container">
-                <div class="Bose_AR__div">
-
-
+              
+                <div class="Bose_AR__div ">
                     <ul class="Bose_AR__div-ul">
                         <li>
                             <h2 class="Bose_AR__div-title">Bose AR</h2>
@@ -297,6 +296,9 @@
                     </ul>
                     <div class="Bose_AR__div-img"></div>
                 </div>
+                </div>
+                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                <a class="next" onclick="nextSlide()">&#10095;</a>
             </div>
         </section>
         <section class="Guarantees">
@@ -499,7 +501,8 @@
 
         <section class="bose__700">
             <div class="swiper__bose ">
-                <div class="swiper-wrapper__bose">
+                <div class="slider">
+                <div class="item_Bose">
                     <div class="swiper-slide__bose">
                         <div class="bose__700-ul_title">bose nc 700</div>
                         <div class="bose__700-box">
@@ -535,13 +538,73 @@
 
                     </div>
 
+                    <div class="item_Bose">
+                        <div class="swiper-slide__bose">
+                            <div class="bose__700-ul_title">bose nc 700</div>
+                            <div class="bose__700-box">
+                                <img src="./img/bose__700img/img_bose(1).png" alt="">
+                                <ul class="bose__700-ul">
+                                    <li></li>
+                                    <li class="ul bose__700-ul_icon"></li>
+                                    <li class="bose__700-ul_line"></li>
+                                    <li class="bose__700-ul_text">Availability in stores <svg
+                                            xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23"
+                                            fill="none">
+                                            <path d="M1 21.4062L21 1.40625M21 1.40625L1 1.40625M21 1.40625L21 21.4062"
+                                                stroke="#DF3D3A" stroke-width="2" />
+                                        </svg></li>
+                                    <li class="bose__700-ul_line"></li>
+                                    <li class="bose__700-ul_text">Characteristics <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="22" height="23" viewBox="0 0 22 23" fill="none">
+                                            <path d="M1 21.4062L21 1.40625M21 1.40625L1 1.40625M21 1.40625L21 21.4062"
+                                                stroke="#DF3D3A" stroke-width="2" />
+                                        </svg></li>
+                                    <li class="bose__700-ul_line"></li>
+                                    <li class="bose__700-ul_text"> Payment and delivery methods <svg
+                                            xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23"
+                                            fill="none">
+                                            <path d="M1 21.4062L21 1.40625M21 1.40625L1 1.40625M21 1.40625L21 21.4062"
+                                                stroke="#DF3D3A" stroke-width="2" />
+                                        </svg></li>
+                                    <li class="bose__700-ul_line"></li>
+                                    <li class="bose__700-ul_price">14 999 UAH</li>
+                                    <li class="bose__700-ul_button"><button>order</button></li>
+                                </ul>
+                            </div>
+    
+                        </div>
+    
+
                     <!-- <div class="swiper-slide swiper-slide__bose">
                         <img src="./img/bose__700img/img_bose(1).png" alt="">
                     </div> -->
-                    <!-- </div>
-            </div> -->
-                    <!-- <div class="swiper-button__next"></div>
-            <div class="swiper-button__prev"></div> -->
+                    </div>
+                    <svg class="previous" onclick="previousSlide" xmlns="http://www.w3.org/2000/svg" width="73" height="114" viewBox="0 0 73 114" fill="none">
+                        <path d="M38.9308 56.2526L38.2868 56.9375L38.9308 57.6225L71.3362 92.0895L52.8791 111.721L1.37257 56.9375L52.8791 2.15435L71.3362 21.7856L38.9308 56.2526Z" fill="black" stroke="black" stroke-width="2"/>
+                      </svg>
+                      <svg  class="next" onclick="nextSlide" xmlns="http://www.w3.org/2000/svg" width="95" height="135" viewBox="0 0 95 135" fill="none">
+                        <g filter="url(#filter0_d_1_152)">
+                          <path d="M44.778 59.9281L45.422 59.2431L44.778 58.5581L12.3726 24.0912L30.8297 4.45989L82.3362 59.2431L30.8297 114.026L12.3726 94.395L44.778 59.9281Z" fill="black" stroke="black" stroke-width="2"/>
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_1_152" x="0" y="0" width="94.7089" height="134.486" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="8"/>
+                            <feGaussianBlur stdDeviation="5.5"/>
+                            <feComposite in2="hardAlpha" operator="out"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.28 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_152"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_152" result="shape"/>
+                          </filter>
+                        </defs>
+                      </svg>
+                    ></a>
+                </div>
+
+            </div>
+                    <!-- <div class="swiper-button__next"></div> 
+            <div class="swiper-button__prev"></div>  -->
         </section>
         <section class="background">
             <div class="container">
@@ -607,7 +670,7 @@
             <path fill-rule="evenodd" clip-rule="evenodd" d="M26 28.1667L34 19L42 28.1667H35.3856V49H32.6144V28.1667H26Z" fill="#F6F5EF"/>
           </svg>
     </div> -->
-
+      <script src="./Js/scriptScroll.js" type="module"></script>
     <script src="./js/mobile.js" type="module"></script>
     <!-- <script src="./Js/swiper.js" type="module"></script>
     <script src="./Js/script.js" type="module"></script> -->
