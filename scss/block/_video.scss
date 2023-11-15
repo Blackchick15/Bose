@@ -1,6 +1,17 @@
 .swiper {
     // width: 1440px;
-    height: 100%;
+    @media screen and (min-width: 320px) {
+        width: 280px;
+        height: 575px;
+    }
+    
+    @media screen and (min-width: 768px) {
+        height: 707px;
+      }
+    
+    @media screen and (min-width: 1360px) {
+        height: 760px;
+}
 }
 
 .swiper-slide {
@@ -39,7 +50,7 @@
     
 
     @media screen and (min-width: 320px) {
-    
+        top: 210px;
     }
     
     @media screen and (min-width: 768px) {
@@ -58,7 +69,7 @@
     
 
     @media screen and (min-width: 320px) {
-        
+        top: 210px;
         
     }
     
@@ -71,14 +82,29 @@
      }
 }
 
+// .swiper-wrapper{
+//    width: ;
+// }
+
 /*  */
 
 .video {
-    height: 760px;
+    
     background-color: #191919;
     margin: 0 auto;
     width: 100%;
+    @media screen and (min-width: 320px) {
+        width: 280px;
+        height: 575px;
+    }
     
+    @media screen and (min-width: 768px) {
+        height: 707px;
+      }
+    
+    @media screen and (min-width: 1360px) {
+        height: 760px;
+}
 
 }
 
@@ -196,6 +222,7 @@
     width: 280px;
     height: 180px;
     margin-left: 20px;
+    margin-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) {
