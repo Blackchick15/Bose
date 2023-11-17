@@ -6,7 +6,7 @@
     width: 100%;
 
     @media screen and (min-width: 320px) {
-      height: 835px;
+      height: 656px;
       margin-left: 20px;
   }
   
@@ -20,9 +20,9 @@
 
     .Guarantees__div{
        
-        // height: 565px;
-        // align-items: center;
-        // justify-content: space-around;
+        height: 565px;
+        align-items: center;
+        justify-content: space-around;
 
         @media screen and (min-width: 320px) {
            
@@ -50,9 +50,26 @@
             flex-shrink: 0;
             background-repeat: no-repeat;
             background-size: contain;
-            width: 590px;
-            height: 565px;
-            background-image: url(/img/Guaranteesbg/img.jpg);
+            
+
+            @media screen and (min-width: 320px) {
+              background-image: url(/img/Guaranteesbg/img\ \(2\).png);
+              width: 280px;
+              height: 268px;
+              
+            }
+            
+            @media screen and (min-width: 768px) {
+              background-image: url(/img/Guaranteesbg/img\ \(2\).png);
+              width: 354px;
+              height: 442px;
+            }
+            
+            @media screen and (min-width: 1360px) {
+              background-image: url(/img/Guaranteesbg/img\ \(3\).png);
+              width: 590px;
+              height: 565px;
+             }
         }
 
         .Guarantees__div-ul{

@@ -6,10 +6,12 @@
     }
     
     @media screen and (min-width: 768px) {
+        width: 768px;
         height: 707px;
       }
     
     @media screen and (min-width: 1360px) {
+        width: 1360px;
         height: 760px;
 }
 }
@@ -49,16 +51,18 @@
     left: auto;
     
 
+
     @media screen and (min-width: 320px) {
         top: 210px;
+        
     }
     
     @media screen and (min-width: 768px) {
-        
+        top: 320px;
       }
     
     @media screen and (min-width: 1360px) {
-       
+        top: 350px;
      }
 }
 
@@ -74,11 +78,11 @@
     }
     
     @media screen and (min-width: 768px) {
-        
+        top: 320px;
       }
     
     @media screen and (min-width: 1360px) {
-       
+        top: 350px;
      }
 }
 
@@ -91,7 +95,7 @@
 .video {
     
     background-color: #191919;
-    margin: 0 auto;
+    // margin: 0 auto;
     width: 100%;
     @media screen and (min-width: 320px) {
         width: 280px;
