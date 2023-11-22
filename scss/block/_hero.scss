@@ -171,9 +171,12 @@
 }
 
 .hero-img {
-  @media screen and (min-width: 320px) {}
+  object-fit: cover;
+  @media screen and (min-width: 320px) {
 
-  // @media screen and (min-width: 480px) {}
+  }
+
+  
 
   @media screen and (min-width: 768px) {
     width: 354px;
