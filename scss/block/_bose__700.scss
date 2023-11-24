@@ -215,9 +215,11 @@
       }
       
       @media screen and (min-width: 1360px) {
+        width: 1100px;
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-between;
+        justify-content:space-between;
+        margin-left: 22px;
        }
 }
 
@@ -284,9 +286,6 @@
   /* Картинка масштабируется по отношению к родительскому элементу */
   .slider .item_Bose img {
     object-fit: cover;
-    // width: 500px;
-    // height: 450px;
-   
   }
   /* Кнопки вперед и назад */
   .slider .previous, .slider .next {
